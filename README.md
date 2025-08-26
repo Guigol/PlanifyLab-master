@@ -17,6 +17,7 @@ Il prend en entrée des échantillons, des techniciens et des équipements, puis
 
 ## Structure
 
+```text
 📦 PlanifyLab-master
 ├─ 📄 pom.xml
 └─ 📂 src
@@ -33,7 +34,7 @@ Il prend en entrée des échantillons, des techniciens et des équipements, puis
 │        └─ 📄 Metrics.java
 └─ 📂 resources
 └─ 📄 data.json
-
+```
 
 ---
 ## 📦 Installation
@@ -49,3 +50,5 @@ mvn exec:java -Dexec.mainClass="com.planifylab.Main"
 
 Sous Intellij (JDK17), cliquer sur :
 Start
+```
+
