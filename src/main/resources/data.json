@@ -1,0 +1,87 @@
+{
+  "samples": [
+    {
+      "id": "S001",
+      "type": "BLOOD",
+      "priority": "STAT",
+      "analysisTime": 30,
+      "arrivalTime": "09:00",
+      "patientId": "P100"
+    },
+    {
+      "id": "S002",
+      "type": "URINE",
+      "priority": "URGENT",
+      "analysisTime": 40,
+      "arrivalTime": "08:30",
+      "patientId": "P101"
+    },
+    {
+      "id": "S003",
+      "type": "TISSUE",
+      "priority": "ROUTINE",
+      "analysisTime": 60,
+      "arrivalTime": "10:00",
+      "patientId": "P102"
+    },
+    {
+      "id": "S004",
+      "type": "BLOOD",
+      "priority": "ROUTINE",
+      "analysisTime": 45,
+      "arrivalTime": "08:45",
+      "patientId": "P103"
+    },
+    {
+      "id": "S005",
+      "type": "URINE",
+      "priority": "STAT",
+      "analysisTime": 20,
+      "arrivalTime": "09:15",
+      "patientId": "P104"
+    }
+  ],
+  "technicians": [
+    {
+      "id": "T1",
+      "name": "Alice Martin",
+      "speciality": "BLOOD",
+      "startTime": "08:00",
+      "endTime": "17:00"
+    },
+    {
+      "id": "T2",
+      "name": "Bob Dupont",
+      "speciality": "URINE",
+      "startTime": "08:00",
+      "endTime": "17:00"
+    },
+    {
+      "id": "T3",
+      "name": "Claire Dubois",
+      "speciality": "GENERAL",
+      "startTime": "09:00",
+      "endTime": "18:00"
+    }
+  ],
+  "equipment": [
+    {
+      "id": "E1",
+      "name": "Analyseur Sang",
+      "type": "BLOOD",
+      "available": true
+    },
+    {
+      "id": "E2",
+      "name": "Analyseur Urine",
+      "type": "URINE",
+      "available": true
+    },
+    {
+      "id": "E3",
+      "name": "Microscope Tissus",
+      "type": "TISSUE",
+      "available": true
+    }
+  ]
+}
