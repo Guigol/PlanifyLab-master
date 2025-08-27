@@ -52,3 +52,7 @@ Sous Intellij (JDK17), cliquer sur :
 Start
 ```
 
+Un jeu de données [data.json] se charge automatiquement à partir de :
+`src/main/resources/data.json`
+
+
